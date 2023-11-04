@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\web\css\font-awesome.css" />
+    <None Include="wwwroot\web\css\style.css" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\web\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\web\images\3.jpg" />
+    <None Include="wwwroot\web\index.html" />
+    <None Include="wwwroot\web\w3layouts-License.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
       <PrivateAssets>all</PrivateAssets>
