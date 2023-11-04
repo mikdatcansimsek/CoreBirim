@@ -33,5 +33,6 @@ namespace CoreBirim.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+        
     }
 }

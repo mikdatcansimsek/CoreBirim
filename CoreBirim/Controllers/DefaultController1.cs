@@ -45,6 +45,8 @@ namespace CoreBirim.Controllers
         public IActionResult BirimDetay(int id)
         {
             var degerler=c.Personels.Where(x=>x.BirimID==id).ToList();
+            var brmad = c.Birims.Where(x => x.BirimId == id).Select(y => y.BirimAd).FirstOrDefault();
+            ViewBag.brm = brmad;
             return View(degerler);
         }
     }
